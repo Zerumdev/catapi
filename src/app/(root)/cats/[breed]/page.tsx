@@ -28,7 +28,9 @@ async function CatsOnBreedPage(props: { params: { breed: string } }) {
 
       <h2 className="mb-5">{breed.description}</h2>
 
-      <a href="">이 게시물이 마음에 드셨나요? [좋아요버튼] [싫어요버튼]</a>
+      <a href="">
+        이 게시물이 마음에 드셨나요? [좋아요버튼](임시) [싫어요버튼](임시)
+      </a>
 
       <ul className="grid grid-cols-5">
         {images.map((image) => (

@@ -20,9 +20,9 @@ function Header() {
         <nav className="ml-20">
           <ul>
             <li>
-              <p href={"/movies"} className="font-light text-sky-300">
+              <a href={"/movies"} className="font-light text-sky-300">
                 ~ 냐옹이들 보는곳 ~
-              </p>
+              </a>
             </li>
           </ul>
         </nav>
